@@ -5,7 +5,7 @@ var showQuestion = function(question) {
 	// clone our result template code
 	var result = $('.templates .question').clone();
 	
-	// Set the question properties in result
+	// Set the ques tion properties in result
 	var questionElem = result.find('.question-text a');
 	questionElem.attr('href', question.link);
 	questionElem.text(question.title);
