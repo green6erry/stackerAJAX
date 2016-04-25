@@ -50,7 +50,7 @@ var showUser = function(item){
 	// set some properties related to user
 	var profile = result.find('.asker');
 
-	profile.html('<p>Name: <a target="_blank" '+
+	profile.html('<p><a target="_blank" '+
 		'href=http://stackoverflow.com/users/' + item.user.user_id + ' >' +
 		item.user.display_name +
 		'<br><br><img src="'+item.user.profile_image+'" /></a></p>' +
