@@ -43,7 +43,7 @@ var showUser = function(item){
 	result.find('dt:nth-of-type(1)').empty();
 	result.find('dt:nth-of-type(2)').empty();
 	result.find('dt:nth-of-type(3)').empty();
-	result.find('dt:nth-of-type(4)').html("User");
+	result.find('dt:nth-of-type(4)').html("");
 	
 
 
