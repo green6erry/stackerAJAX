@@ -53,7 +53,7 @@ var showUser = function(item){
 	profile.html('<p>Name: <a target="_blank" '+
 		'href=http://stackoverflow.com/users/' + item.user.user_id + ' >' +
 		item.user.display_name +
-		'</a></p>' +
+		'<br><br><img src="'+item.user.profile_image+'" /></a></p>' +
 		'<p>Reputation: ' + item.user.reputation + '</p>'
 	);
 
